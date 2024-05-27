@@ -18,7 +18,7 @@ Ensure you have the following components and libraries:
 
 **Install ArduinoJson Library:** Go to ```Sketch > Include Library > Manage Libraries```, search for ```ArduinoJson```, and install it.
 
-**Enable Bluetooth and SPP in ESP32:** Ensure that Bluetooth and Serial Port Profile (SPP) are enabled in the ESP32 configuration. If not, use the command make ```menuconfig``` to enable them.
+**Enable Bluetooth and SPP in ESP32:** Ensure that Bluetooth and Serial Port Profile (SPP) are enabled in the ESP32 configuration. If not, use the command ```make menuconfig``` to enable them.
 
 ## Description:
 In our work, code initializes Bluetooth on an ESP32 and transmits sensor data as a JSON object. The data is sent every 5 seconds. 
