@@ -1,4 +1,4 @@
-# carrycrop2x-dummy
+# CarryCrop2x: Dummy project
 
 ## Introduction
 This project is designed for the ESP32 microcontroller to transmit sensor data via Bluetooth using the Arduino framework. The sensor data includes values such as moisture, temperature, conductivity, pH, and nutrient levels (nitrogen, phosphorus, and potassium). The data is serialized into JSON format and sent over Bluetooth.
